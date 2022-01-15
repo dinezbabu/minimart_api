@@ -28,4 +28,4 @@ or
 mongod --config /usr/local/etc/mongod.conf
 
 
-Key: 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
+git Key: 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
