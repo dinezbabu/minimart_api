@@ -26,3 +26,6 @@ service to run background
 brew services start mongodb/brew/mongodb-community
 or
 mongod --config /usr/local/etc/mongod.conf
+
+
+Key: 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
