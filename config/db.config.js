@@ -1,3 +1,4 @@
 module.exports={
-    db:'mongodb://127.0.0.1/ecommerce-app'
+    DB:'mongodb://127.0.0.1/ecommerce-app',
+    PAGE_SIZE: 10
 };
