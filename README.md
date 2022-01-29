@@ -1,7 +1,15 @@
 # minimart_api
 cmd: npm init
 cmd:  npm install express mongoose express-unless bcryptjs jsonwebtoken mongoose-unique-validator --save
+cmd: nodemon js --> To run application
+
+#Steps to make API Work
+sudo brew services restart mongodb-community@5.0
 cmd: nodemon js
+
+#Swagger
+http://localhost:4000/api-docs/
+
 
 #Mongo DB require Sudo to run the brew service
 
@@ -32,3 +40,9 @@ mongod --config /usr/local/etc/mongod.conf
 
 
 git Key: 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
+
+
+Command to kill Mongo
+lsof -nP -iTCP -sTCP:LISTEN | grep 27017 (or)  netstat -vanp tcp | grep 27017
+kill -9 <pid>
+
